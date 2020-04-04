@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+
+
+* {
+    outline: none;
+}
+
+#write {
+    width: 17em;
+    height: 2.4em;
+    background: #6294ce;
+    border-style: none;
+    color: white;
+    font-weight: 200;
+}
+
+#side {
+    float: left;
+    width: 20em;
+    height: 54em;
+    background: #f5f5f5;
+    position: fixed;
+
+}
+
+hr {
+    border: 1px inset black;
+}
+
+#submenu {
+    position: absolute;
+    width: 340px;
+    height: 280px;
+}
+
+#submenu2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+
+#submenu3 {
+            position: absolute;
+            width: 180px;
+            height: 100px;
+        }
+
+#name{
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+
+#logOut{
+            margin-left: 40px;
+             width: 6em;
+            height: 2.4em;
+            background: #6294ce;
+            border-style: none;
+            color: white;
+            font-weight: 200;
+}
+
+
+
+
+#topmenu img {
+    width: 80px;
+
+}
+
+
+#content {
+    float: left;
+    margin: 40px;
+    left: 350px;
+    position: absolute;
+}
+
+#setting {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 11pt;
+}
+
+#setting td{
+
+    border: 1px solid #e0e0e0 !important;
+}
+
+
+#setting td:nth-child(1) {
+    width: 120px;
+    height: 45px;
+    background: #f7f7f7;
+}
+
+#setting td:nth-child(2) {
+    width: 350px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#setting td:nth-child(3) {
+    background: #f7f7f7;
+    width: 120px
+}
+
+#setting td:nth-child(4) {
+    width: 370px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+#lineTable td {
+    width: 120px;
+    height: 45px;
+    
+}
+
+#lineTable tr:nth-child(1){
+    background: #f7f7f7;
+}
+
+
+
+
+#type {
+    width: 190px;
+    height: 30px;
+}
+
+#grade {
+    width: 190px;
+    height: 30px;
+}
+
+#Qmark {
+    padding-bottom: 5px;
+    
+}
+
+#manual {
+    border: 1px solid gray;
+    width: 450px;
+    height: 150px;
+    padding: 10px;
+    font-size: 9pt;
+    color: lightslategrey;
+    position: absolute;
+    left: 600px;
+    top: 140px;
+    display: none;
+    background: white;
+
+}
+
+#line {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 11pt;
+}
+
+#line td:nth-child(1){
+    width: 120px;
+    height: 45px;
+    background: #f7f7f7;
+}
+
+#line td:nth-child(2){
+    padding-left: 20px;
+    width: 824px;
+    text-align: left;
+}
+
+
+
+
+#lineInput {
+    
+    float: left;
+}
+
+#lineOutput {
+    float: left;
+    padding-left: 30px;
+    padding-top: 3px;
+    color: gray;
+}
+
+#title {
+    width: 1000px;
+    height: 40px;
+}
+
+.texteditor {
+ height: 300px;
+}
+
+#dropZone {
+    border: 4px dotted gray;
+    width: 1200px;
+    height: 100px;
+    overflow: scroll;
+    
+}
+
+#last p {
+    font-size: 11pt;
+}
+
+#button1 {
+    border: 0;
+    background: #fff;
+    outline: none;
+    color: #63a4d3;
+   
+    
+}
+
+#year {
+     width: 190px;
+    height: 30px;
+}
+
+#lineDiv {
+    width: 750px;
+    height: 570px;
+    padding: 20px;
+    display: none;
+    position: absolute;
+    background: white;
+    z-index: 3;
+    left: 100px;
+    top: 230px;
+    
+}
+
+#employee {
+   
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+}
+
+#mask {
+    position: absolute;
+    top: 2px;
+    width: 2000px;
+    display: none;
+    height: 1000px;
+    background: hsl(0, 0%, 0%);
+    z-index: 3;
+    opacity: 0.7;
+    display: none;
+ 
+}
+
+#searchImg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 72px;
+    left: 185px;
+}
+
+#lineSearch {
+    font-size: 11pt;
+}
+
+#multiple {
+    width: 200px;
+    height: 350px;
+}
+
+#multiple option{
+    width: 200px;
+    color: gray;
+    font-size: 11pt;
+    
+}
+
+
+
+#multiple2 {
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    top: 133px;
+    right: 160px;
+}
+
+#lineP {
+    position: absolute;
+    top: 108px;
+    right: 330px;
+    font-size: 11pt;
+}
+
+#lineNumber {
+    position: absolute;
+    top: 104px;
+    right: 310px;
+    font-size: 14pt;
+    color: #6698f7;
+}
+
+#img{
+    cursor: pointer;
+}
+
+
+#rightArrow {
+  position: absolute;   
+    top: 200px;
+    left: 300px;
+}
+
+#leftArrow{
+    position: absolute;
+    top: 240px;
+    left: 301px;
+}
+
+
+
+#modify {
+    text-decoration: none;
+    color: #6698f7;
+    font-size: 11pt;
+    
+}
+
+#lineChange {
+     text-decoration: none;
+    color: #6698f7;
+    font-size: 11pt;
+}
+
+#delete {
+       text-decoration: none;
+    color: #6698f7;
+    font-size: 11pt;
+}
+
+#lineTable {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 11pt;
+}
+
+#lineTable td {
+    border: 1px solid #e0e0e0 !important;
+}
+
+
+
+#attatch {
+    font-size: 11pt;
+}
+
+#attatch a {
+    padding-left: 20px;
+}
+
+.sign {
+    width: 70px;
+    height: 30px;
+    font-size: 10pt;
+    border: none;
+    background-color: #6698f7;
+    color: white;
+    display: none;
+}
+
+.check {
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+    display: none;
+    
+}
+
+.checkp {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.reject {
+    width: 70px;
+    height: 30px;
+    font-size: 10pt;
+    border: none;
+    background-color: #ff2525;
+    color: white;
+    
+}
+
+.X {
+     margin-top: 15px;
+    width: 75px;
+    height: 75px;
+  
+    
+}
+
+
+
+
+#print {
+     text-decoration: none;
+    color: #6698f7;
+    font-size: 11pt;
+}

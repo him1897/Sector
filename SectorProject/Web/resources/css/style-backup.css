@@ -1,0 +1,360 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+#searching {
+
+    background-color: white;
+    
+
+}
+
+#table-center td{
+    text-align: center;
+}
+
+#table-center th{
+    text-align: center;
+}
+
+#nav_three {
+    padding: 3px;
+}
+
+.navbar-toggler-icon {
+    border-color: black;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+}
+
+#insert-address {
+    width: 17em;
+    height: 2.4em;
+    background: #6294ce;
+    border-style: none;
+    color: white;
+    font-weight: 200;
+    position: absolute;
+    left:35px;
+
+}
+
+#side {
+
+    width: 22em;
+    background: #f5f5f5;
+    float: left;
+    display: flex;
+    height: 100vh;
+    
+    
+
+}
+
+hr {
+    border: 0.5px solid black;
+}
+
+#submenu {
+    position:absolute;   
+    width: 330px;
+    height: 250px;
+    
+}
+
+#submenu2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+#submenu3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+#contentTable {
+    
+    align-self: center;
+    font-size: 11pt;
+
+}
+
+
+
+/*
+td {
+    background: white;
+    padding: 7px;
+    font-size: 11pt;
+    
+}
+*/
+
+#contentTable #t1 td {
+    background: #f7f7f7;
+    padding: 7px;
+    font-size: 11pt;
+    padding: 5px;
+}
+
+#option {
+    margin: 20px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+
+
+.navbar-brand {
+    
+}
+
+#logo {
+   width: 200px;
+    height: 40px;
+    
+}
+
+#top-bar {
+/*    border: 1px solid green;*/
+    display: flex;
+    align-content: flex-start;
+    padding-left: 10;
+    height: 80px;
+    align-content: center;
+    
+    
+    
+    
+    
+}
+
+#se {
+    
+    background: pink;
+}
+
+
+
+#top-bar-container {
+    background: white;
+
+}
+
+#top-arrow {
+    width: 15px;
+}
+
+
+
+#dropdown01 {
+    color: black;
+
+}
+
+#top-arrow-items {
+    width: 98px;
+}
+
+#side-menu {
+    background: #f5f5f5;
+    height: 100vh;
+    width: 22em;
+    float: left;
+
+    
+}
+
+#top-body-line {
+    
+}
+
+
+
+.container-fluid {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#side-body {
+    float: left;    
+}
+
+
+
+#sidemenu-content {
+    list-style: none;
+    line-height: 60px;
+    align-items: flex-end;
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#arrow {
+    width: 16px;
+}
+
+#content {
+/*    border: 2px solid blue;*/
+/*    margin: 80px;*/
+    margin-top: 20px;
+}
+
+
+
+
+
+#sidemenu-enviroment {
+
+}
+
+#insert-button {
+    height: 100px;
+    
+}
+
+#search-icon {
+    width: 30px;
+}
+
+
+
+#menu-items {
+    text-decoration: none;
+}
+
+
+
+
+
+span {
+    text-decoration: none;
+}
+
+
+
+
+
+#search-pack {
+    
+}
+
+
+
+
+
+#mid-body {
+    border-top: 1px solid black;
+    
+}
+
+#profile-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#bell-icon {
+    width: 25px;
+    height: 30px;
+}
+
+#menu-drop-item {
+    border-style: none;
+}
+
+.card {
+    border-style: none;
+}
+
+#menu-items-drop {
+    text-decoration: none;
+}
+
+
+
+#sidemenu-dropdown {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 6px;
+    text-decoration: none;
+    
+}
+
+
+
+#edit-menu-dropdown {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+#main-table {
+padding: 30px;
+}
+
+
+
+
+
+
+
+#drop-menu {
+    padding-left: 13px;
+}
+
+#drop-items {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+tr {
+    padding-top: 30px;
+}
+
+
+td {
+    
+}

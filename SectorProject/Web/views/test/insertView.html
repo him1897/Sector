@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../resources/css/style.css">
+
+    <title>Hello, world!</title>
+
+
+
+
+</head>
+
+<body>
+
+
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+
+
+
+
+
+
+    <div>
+    <div class="col-md-8 dorder-md-1">
+        <h4 class="mb-3">주소록 추가</h4>
+        <form class="needs-validation" novalidate>
+            <div class="row col-md-12 mb-3">
+                <div class="col-6 custom-control custom-radio">
+                    <input id="personal" name="abcheck" type="radio" class="custom-control-input" checked required>
+                    <label class="custom-control-label" for="personal">개인주소록</label>
+                </div>
+                <div class="col-6 custom-control custom-radio">
+                    <input id="share" name="abcheck" type="radio" class="custom-control-input" required>
+                    <label class="custom-control-label" for="share">공용주소록</label>
+                </div>
+            </div>
+            <div class="row mb-3 col-8">
+                <label for="firstName">이름</label>
+                <input type="text" class="form-control" id="firstName" placeholder="name" value="" required>
+                <div class="invalid-feedback">
+                    이름은 반드시 기재하셔야 합니다.
+                </div>
+            </div>
+
+            <div class="row mb-3 col-8">
+                <label for="username">연락처</label>
+                <input type="text" class="form-control" id="username" placeholder="ex)123456789" required>
+                <div class="invalid-feedback">
+                    연락처는 반드시 기재하셔야 합니다.
+                </div>
+            </div>
+            <div class="row col-5 mb-3">
+                <label for="address">직급</label>
+                <input type="text" class="form-control" id="address" placeholder="ex)과장, 대리">
+            </div>
+
+
+            <div class="mb-3">
+                <label for="email">Email <span class="text-muted"></span></label>
+                <input type="email" class="form-control" id="email" placeholder="id@sector.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="address">주소</label>
+                <input type="text" class="form-control" id="address" placeholder="ex)서울시 서초구...">
+            </div>
+            <div class="mb-3">
+                <label for="anniversary" class="">기념일</label>
+                <div class="row col">
+
+                    <input type="text" class="col-5 form-control mr-3" placeholder="ex)결혼기념일">
+                    <input type="date" class="col-7 form-control" id="anniversary">
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <div id="center" class="col">
+
+        <button class="col" id="insert-clear" type="submit">작성완료</button>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

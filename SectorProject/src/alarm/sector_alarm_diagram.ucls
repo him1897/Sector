@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="alarm.controller.DeleteAlarmServlet" project="sectorProject" 
+    file="/sectorProject/src/alarm/controller/DeleteAlarmServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="110" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="alarm.controller.UpdateAlarmServlet" project="sectorProject" 
+    file="/sectorProject/src/alarm/controller/UpdateAlarmServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="438" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="alarm.controller.InsertAlarmServlet" project="sectorProject" 
+    file="/sectorProject/src/alarm/controller/InsertAlarmServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="766" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="alarm.controller.RingAlarmServlet" project="sectorProject" 
+    file="/sectorProject/src/alarm/controller/RingAlarmServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="1094" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="alarm.model.dao.AlarmDao" project="sectorProject" 
+    file="/sectorProject/src/alarm/model/dao/AlarmDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="194" x="242" y="424"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="alarm.model.vo.Alarm" project="sectorProject" 
+    file="/sectorProject/src/alarm/model/vo/Alarm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="941" y="545"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="alarm.model.service.AlarmService" project="sectorProject" 
+    file="/sectorProject/src/alarm/model/service/AlarmService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="137" x="661" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="8" language="java" name="alarm.model.service" project="sectorProject" 
+    file="/sectorProject/src/alarm/model/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="393" width="472" x="1047" y="269"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <association id="9">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="10" name="adao"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
